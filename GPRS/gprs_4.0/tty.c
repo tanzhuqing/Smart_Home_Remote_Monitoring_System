@@ -1,6 +1,6 @@
 /************************************************
  *  TTY SERIAL ROUTES 
- *  use ttyS1 to ctrol GPRS
+ *  use ttyS1 to ctrol GPRS   //涓茶绔彛
  *  by Liao ding shi    
  *  2010-08-01
  *  
@@ -108,8 +108,8 @@ int tty_init()
 	 newtio.c_cc[VERASE]   = 0;     /* del */ 
 	 newtio.c_cc[VKILL]    = 0;     /* @ */ 
 	 newtio.c_cc[VEOF]     = 4;     /* Ctrl-d */ 
-	 newtio.c_cc[VTIME]    = 0;     /* 不使用分割字元组的计时器 */ 
-	 newtio.c_cc[VMIN]     = 1;     /* 在读取到 1 个字元前先停止 */ 
+	 newtio.c_cc[VTIME]    = 0;     /* 锟斤拷使锟矫分革拷锟斤拷元锟斤拷锟侥硷拷时锟斤拷 */ 
+	 newtio.c_cc[VMIN]     = 1;     /* 锟节讹拷取锟斤拷 1 锟斤拷锟斤拷元前锟斤拷止停 */ 
 	 newtio.c_cc[VSWTC]    = 0;     /* '\0' */ 
 	 newtio.c_cc[VSTART]   = 0;     /* Ctrl-q */  
 	 newtio.c_cc[VSTOP]    = 0;     /* Ctrl-s */ 
